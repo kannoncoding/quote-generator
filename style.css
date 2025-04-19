@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+  }
+  
+  #quote-box {
+    text-align: center;
+    padding: 2em;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+  
+  /* Animation classes */
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .fade.show {
+    opacity: 1;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    body {
+      padding: 1em;
+      flex-direction: column;
+    }
+  
+    #quote-box {
+      width: 100%;
+      padding: 1.5em;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 1.1em;
+    }
+  }
+  
