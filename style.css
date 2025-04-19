@@ -4,13 +4,13 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: #f4f4f4;
+    background: #38e9fd;
   }
   
   #quote-box {
     text-align: center;
     padding: 2em;
-    background: white;
+    background: rgb(137, 197, 249);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
